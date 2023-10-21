@@ -1,16 +1,16 @@
 .main{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 768px;
 }
 
 .input-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 57%;
 }
 
 .slid-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 43%;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@
 
 /* ---------------input-container----------- */
 .input-container{
-    border: 1px solid rgb(48, 9, 9);
+    /* border: 1px solid rgb(48, 9, 9); */
     position: relative;
     left: 15%;
     top: 10%;
@@ -27,7 +27,7 @@
     height: 80%;
 }
 .logo{
-    border: 1px solid rgb(48, 9, 9);
+    /* border: 1px solid rgb(48, 9, 9); */
     width: 76px;  
     height: 76px;
 }
@@ -39,7 +39,7 @@
 
 .text-form{
     /* border: 1px solid rgb(48, 9, 9); */
-    top: 4em;
+    margin-top: 3em;
     position: relative;
 }
 
@@ -56,21 +56,20 @@
 .form-controller{
     /* border: 1px solid rgb(172, 209, 37); */
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
 .label{
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     letter-spacing: 0px;
     color: #05253C;
     opacity: 1;
     font-size: 16px;
 }
 
-.first-name{
-    top: 3em;
-    position: relative;
-}
+
 
 .text-aria{
     width: 100%;
@@ -83,30 +82,28 @@
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0px;
-    color: #DBDBDB;
     opacity: 1;
     font-size: 12px;
 }
 
-.last-name{
-    top: 5.5em;
-    position: relative;
+::placeholder {
+    color: #DBDBDB;
+    opacity: 1; /* Firefox */
 }
-.email{
-    top: 7.5em;
-    position: relative;
-}
-.address{
-    top: 10em;
-    position: relative;
-}
+  
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: rgb(0, 0, 0);
+  }
 
-
+:focus {
+    outline: none !important;
+    border: none;
+}
 
 .submit-button{
-    border: 1px solid rgb(172, 209, 37);
+    /* border: 1px solid rgb(172, 209, 37); */
     position: relative;
-    top: 18em;
+    margin-top: 3em;
 }
 .submit-button button{
     width: 168px;
@@ -126,4 +123,17 @@
 .slid-section img{
     width: 100%;
     height: 100%;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2rem;
 }
