@@ -32,6 +32,69 @@
     height: 12vh;
 }
 
+.text-form{
+    /* border: 1px solid rgb(48, 9, 9); */
+    margin-top: 4%;
+    position: relative;
+}
+
+.text-form p{
+    text-align: left;
+    font: normal normal 200 40px/52px Manrope;
+    letter-spacing: 0px;
+    color: #05253C;
+    opacity: 1;
+    font-size: 40px;
+    margin: 0;
+}
+
+.form-controller{
+    /* border: 1px solid rgb(172, 209, 37); */
+    height: 3%;
+    width: 60%;
+}
+
+.label{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #05253C;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.first-name{
+    margin-top: 36px;
+}
+
+.text-aria{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #DBDBDB;
+    position: relative;
+    top: 2px;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #DBDBDB;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.last-name{
+    margin-top: 36px;
+}
+.email{
+    margin-top: 36px;
+}
+.address{
+    margin-top: 36px;
+}
+
+
+
 
 
 /* ---------------index.html-container----------- */
