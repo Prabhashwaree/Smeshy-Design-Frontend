@@ -27,14 +27,19 @@
     height: 80%;
 }
 .logo{
-    /* border: 1px solid rgb(48, 9, 9); */
-    width: 11%;  
-    height: 12vh;
+    border: 1px solid rgb(48, 9, 9);
+    width: 76px;  
+    height: 76px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
 }
 
 .text-form{
     /* border: 1px solid rgb(48, 9, 9); */
-    margin-top: 4%;
+    top: 4em;
     position: relative;
 }
 
@@ -50,7 +55,6 @@
 
 .form-controller{
     /* border: 1px solid rgb(172, 209, 37); */
-    height: 3%;
     width: 60%;
 }
 
@@ -64,7 +68,8 @@
 }
 
 .first-name{
-    margin-top: 36px;
+    top: 3em;
+    position: relative;
 }
 
 .text-aria{
@@ -84,15 +89,35 @@
 }
 
 .last-name{
-    margin-top: 36px;
+    top: 5.5em;
+    position: relative;
 }
 .email{
-    margin-top: 36px;
+    top: 7.5em;
+    position: relative;
 }
 .address{
-    margin-top: 36px;
+    top: 10em;
+    position: relative;
 }
 
+
+
+.submit-button{
+    border: 1px solid rgb(172, 209, 37);
+    position: relative;
+    top: 18em;
+}
+.submit-button button{
+    width: 168px;
+    height: 45px;
+    background: #FFDC47 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* margin-top:91px; */
+}
 
 
 
