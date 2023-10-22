@@ -13,9 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main class="main">
@@ -30,26 +35,50 @@
             <div class="form">
               <div class="form-controller">
                 <label for="fname" class="label">First Name*</label>
-                <input type="text" placeholder="Please type your first name" id="firstName" class="text-aria" name="fname" />
+                <input
+                  type="text"
+                  placeholder="Please type your first name"
+                  id="fname"
+                  class="text-aria"
+                />
+                <p class="alert">Invalid first name</p>
               </div>
-  
-              <div class="form-controller">
+
+              <div class="form-controller last-name">
                 <label for="fname" class="label">Last Name*</label>
-                <input type="text" placeholder="Please type your first name" id="lastName" class="text-aria" name="fname" />
+                <input
+                  type="text"
+                  placeholder="Please type your first name"
+                  id="lname"
+                  class="text-aria"
+                />
+                <p class="alert">Invalid last name</p>
               </div>
-  
-              <div class="form-controller">
+
+              <div class="form-controller email-address">
                 <label for="fname" class="label">Email Address*</label>
-                <input type="text" placeholder="Please type your first name" id="emailAddress" class="text-aria" name="fname" />
+                <input
+                  type="text"
+                  placeholder="Please type your first name"
+                  id="email"
+                  class="text-aria"
+                />
+                <p class="alert">Invalid email address</p>
               </div>
-              <div class="form-controller">
+              <div class="form-controller address">
                 <label for="fname" class="label">Address*</label>
-                <input type="text" placeholder="Please type your first name" id="address" class="text-aria" name="fname" />
+                <input
+                  type="text"
+                  placeholder="Please type your first name"
+                  id="address"
+                  class="text-aria"
+                />
+                <p class="alert">Invalid address</p>
               </div>
             </div>
           </div>
           <div class="submit-button">
-            <button>Submit</button>
+            <button onclick="submitHandle()">Submit</button>
           </div>
         </div>
       </section>
