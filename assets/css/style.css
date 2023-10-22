@@ -143,3 +143,48 @@
     margin-top: 3rem;
     gap: 0.5rem;
 }
+
+
+
+/* --------------media query------------- */
+
+@media all and (min-width: 768px) and (max-width: 944px) {
+    .text-form > p{
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 624px) and (max-width: 760px) {
+    .text-form > p{
+        font-size: 28px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 680px) {
+    .main{
+        flex-direction: column-reverse;
+        height: 1200px;
+    }
+
+    .input-section{
+        width: 100%;
+        height: 750px;
+    }
+    
+    .slid-section{
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .text-form > p{
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .text-form > p{
+        font-size: 20px;
+    }
+}
